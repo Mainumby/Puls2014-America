@@ -23,7 +23,7 @@ $(function()
 var base_url = "http://query.yahooapis.com/v1/public/yql?"
 
 function obtenerGeoInformation(lat, lon){
-	// console.log(lat,lon);
+	console.log(lat,lon);
 	var query = 'SELECT * FROM geo.placefinder WHERE text="'lat'+','+' lon+'" AND gflags= "R" ';
 
 	// console.log(query);

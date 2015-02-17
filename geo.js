@@ -22,8 +22,8 @@ $(function(){
 					$('#geo').append(mapa);
 
 					//guardar variables en forma global
-					// window.lat= lat; 
-					// window.lon = lon;
+					 window.lat= lat; 
+					window.lon = lon;
 					obtenerGeoInformation(lat, lon);
 					
 
